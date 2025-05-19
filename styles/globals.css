@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #002F5F;
+  --brand-accent: #F5A623;
+  --brand-light: #FFFFFF;
+  --spacing-base: 1.5rem;
+  --spacing-lg: 2rem;
+}
+
+body {
+  @apply text-gray-800 bg-white;
+}
+
+body.dark {
+  @apply bg-gray-900 text-gray-100;
+}
+
+.container {
+  @apply max-w-7xl px-4;
+}
+
+.bg-primary {
+  background-color: var(--brand-primary);
+}
+
+.bg-accent {
+  background-color: var(--brand-accent);
+}
