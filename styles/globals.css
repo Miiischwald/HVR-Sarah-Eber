@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #002F5F;
+  --brand-accent: #F5A623;
+  --brand-light: #FFFFFF;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
