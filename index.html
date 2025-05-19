@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hausverwaltung Sarah Ebner – Startseite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header role="banner" class="header">
+  <div class="container nav-container">
+    <img src="https://www.hausverwaltung-ebner.de/fuxx/logo.png" alt="Hausverwaltung Ebner" class="logo">
+    <nav role="navigation" class="nav" id="nav">
+      <button class="nav-toggle" aria-label="Menü umschalten" onclick="toggleMenu()">☰</button>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#">Startseite</a></li>
+        <li><a href="#eigentuemer">Für Eigentümer</a></li>
+        <li><a href="#mietwohnungen">Mietwohnungen</a></li>
+        <li><a href="#gewerbe">Gewerbe</a></li>
+        <li><a href="#erstvermietung">Erstvermietung nach Sanierung</a></li>
+        <li><a href="#betreutes">Betreutes Wohnen</a></li>
+        <li><a href="#karriere">Karriere</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#ueberuns">Über uns</a></li>
+        <li><a href="#referenzen">Referenzen</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main role="main" class="main">
+  <section class="hero">
+    <img src="https://www.hausverwaltung-ebner.de/fuxx/startpic.jpg" alt="Außenansicht eines modernen Wohngebäudes bei Tageslicht" loading="lazy">
+    <h1>Hausverwaltung Sarah Ebner</h1>
+    <p class="tagline">Die Hausverwaltung Sarah Ebner ist Ihr professioneller Ansprechpartner für die Verwaltung Ihrer Immobilie.</p>
+  </section>
+
+  <section class="angebote">
+    <h2>Angebote</h2>
+    <div class="grid">
+      <article class="card">
+        <img src="https://www.hausverwaltung-ebner.de/fuxx/start_1-2_raum-wohnung.png" alt="1-2 Raum Wohnungen" loading="lazy">
+        <h3>1–2 Raum Wohnungen</h3>
+      </article>
+      <article class="card">
+        <img src="https://www.hausverwaltung-ebner.de/fuxx/start_3-4_raum-wohnung.png" alt="3-5 Raum Wohnungen" loading="lazy">
+        <h3>3–5 Raum Wohnungen</h3>
+      </article>
+      <article class="card">
+        <img src="https://www.hausverwaltung-ebner.de/fuxx/start_garage_gewerbe.png" alt="Gewerbe zu vermieten" loading="lazy">
+        <h3>Gewerbe zu vermieten</h3>
+      </article>
+    </div>
+  </section>
+
+  <section class="regions">
+    <h2>Regionale Leistungen</h2>
+    <p>Bayern, Hessen, Sachsen, Thüringen, Sachsen-Anhalt, Niedersachsen, Nordrhein-Westfalen, Brandenburg, Berlin</p>
+  </section>
+
+  <section class="cta">
+    <a href="javascript:window.print()" class="btn"><span class="icon-print" aria-hidden="true"></span> Drucken</a>
+    <a href="mailto:info@hausverwaltung-ebner.de" class="btn"><span class="icon-envelope" aria-hidden="true"></span> E-Mail</a>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <address>Eckstraße 7, 09113 Chemnitz</address>
+    <ul class="footer-links">
+      <li><a href="#impressum">Impressum &amp; Bildrechte</a></li>
+      <li><a href="#datenschutz">Datenschutz</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  var list = document.getElementById('nav-list');
+  list.classList.toggle('open');
+}
+</script>
+</body>
+</html>
