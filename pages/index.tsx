@@ -1,4 +1,4 @@
-return (
+
     <>
       <Head>
         <title>Hausverwaltung Sarah Ebner – Startseite</title>
@@ -9,10 +9,5 @@ return (
           </nav>
         </div>
       </header>
-
-            </article>
-          </div>
-        </section>
-
 
 }
